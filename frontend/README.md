@@ -285,27 +285,6 @@ volumes:
   ollama:
 
 
-Git Commands to Push
-# Initialize git repository (if not already done)
-git init
 
-# Add all files
-git add .
 
-# Commit
-git commit -m "🎉 Initial commit: AI-Powered Manim Animation Generator
 
-Features:
-- React + TypeScript frontend with beautiful UI
-- Flask backend with Llama 3.2 integration
-- Manim animation rendering
-- Real-time progress tracking
-- Local processing for privacy
-- Complete documentation"
-
-# Add your GitHub repository as remote
-git remote add origin https://github.com/yourusername/manim-animation-app.git
-
-# Push to GitHub
-git branch -M main
-git push -u origin main
